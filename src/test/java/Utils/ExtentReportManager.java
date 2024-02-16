@@ -39,9 +39,9 @@ public class ExtentReportManager extends BaseClass implements ITestListener  {
 		
 		extentReports.attachReporter(sparkReporter);
 		
-		extentReports.setSystemInfo("Computer Name", "HP");
+		extentReports.setSystemInfo("Computer Name", "Dell");
 		extentReports.setSystemInfo("Environment", "QA");
-		extentReports.setSystemInfo("Tester Name", "Harish Gandolkar");
+		extentReports.setSystemInfo("Tester Name", "Kunal verma");
 		extentReports.setSystemInfo("OS", "Windows11");
 		extentReports.setSystemInfo("Browser Name", "Chrome,Edge");
 		
